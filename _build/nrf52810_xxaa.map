@@ -11227,164 +11227,164 @@ Linker script and memory map
                 0x000000000001c248       0x94 _build/nrf52810_xxaa/nrfx_uarte.c.o
                 0x000000000001c248                nrfx_uarte_tx
  .text.startup.main
-                0x000000000001c2dc       0x60 _build/nrf52810_xxaa/main.cpp.o
+                0x000000000001c2dc       0x64 _build/nrf52810_xxaa/main.cpp.o
                 0x000000000001c2dc                main
  .text.sd_softdevice_enable
-                0x000000000001c33c        0x4 _build/nrf52810_xxaa/nrf_sdh.c.o
+                0x000000000001c340        0x4 _build/nrf52810_xxaa/nrf_sdh.c.o
  .text.sdh_request_observer_notify
-                0x000000000001c340       0x30 _build/nrf52810_xxaa/nrf_sdh.c.o
+                0x000000000001c344       0x30 _build/nrf52810_xxaa/nrf_sdh.c.o
  .text.sdh_state_observer_notify
-                0x000000000001c370       0x28 _build/nrf52810_xxaa/nrf_sdh.c.o
+                0x000000000001c374       0x28 _build/nrf52810_xxaa/nrf_sdh.c.o
  .text.softdevice_evt_irq_disable
-                0x000000000001c398       0x24 _build/nrf52810_xxaa/nrf_sdh.c.o
+                0x000000000001c39c       0x24 _build/nrf52810_xxaa/nrf_sdh.c.o
  .text.softdevices_evt_irq_enable
-                0x000000000001c3bc       0x38 _build/nrf52810_xxaa/nrf_sdh.c.o
+                0x000000000001c3c0       0x38 _build/nrf52810_xxaa/nrf_sdh.c.o
  .text.nrf_sdh_enable_request
-                0x000000000001c3f4       0x7c _build/nrf52810_xxaa/nrf_sdh.c.o
-                0x000000000001c3f4                nrf_sdh_enable_request
+                0x000000000001c3f8       0x7c _build/nrf52810_xxaa/nrf_sdh.c.o
+                0x000000000001c3f8                nrf_sdh_enable_request
  .text.nrf_sdh_is_enabled
-                0x000000000001c470        0xc _build/nrf52810_xxaa/nrf_sdh.c.o
-                0x000000000001c470                nrf_sdh_is_enabled
+                0x000000000001c474        0xc _build/nrf52810_xxaa/nrf_sdh.c.o
+                0x000000000001c474                nrf_sdh_is_enabled
  .text.nrf_sdh_suspend
-                0x000000000001c47c       0x1c _build/nrf52810_xxaa/nrf_sdh.c.o
-                0x000000000001c47c                nrf_sdh_suspend
+                0x000000000001c480       0x1c _build/nrf52810_xxaa/nrf_sdh.c.o
+                0x000000000001c480                nrf_sdh_suspend
  .text.nrf_sdh_evts_poll
-                0x000000000001c498       0x28 _build/nrf52810_xxaa/nrf_sdh.c.o
-                0x000000000001c498                nrf_sdh_evts_poll
+                0x000000000001c49c       0x28 _build/nrf52810_xxaa/nrf_sdh.c.o
+                0x000000000001c49c                nrf_sdh_evts_poll
  .text.SWI2_IRQHandler
-                0x000000000001c4c0        0x4 _build/nrf52810_xxaa/nrf_sdh.c.o
-                0x000000000001c4c0                SWI2_IRQHandler
+                0x000000000001c4c4        0x4 _build/nrf52810_xxaa/nrf_sdh.c.o
+                0x000000000001c4c4                SWI2_IRQHandler
  .text.sd_ble_evt_get
-                0x000000000001c4c4        0x4 _build/nrf52810_xxaa/nrf_sdh_ble.c.o
+                0x000000000001c4c8        0x4 _build/nrf52810_xxaa/nrf_sdh_ble.c.o
  .text.nrf_sdh_ble_evts_poll.part.0
-                0x000000000001c4c8       0x4c _build/nrf52810_xxaa/nrf_sdh_ble.c.o
+                0x000000000001c4cc       0x4c _build/nrf52810_xxaa/nrf_sdh_ble.c.o
  .text.nrf_sdh_ble_evts_poll
-                0x000000000001c514       0x10 _build/nrf52810_xxaa/nrf_sdh_ble.c.o
+                0x000000000001c518       0x10 _build/nrf52810_xxaa/nrf_sdh_ble.c.o
  .text.sd_evt_get
-                0x000000000001c524        0x4 _build/nrf52810_xxaa/nrf_sdh_soc.c.o
+                0x000000000001c528        0x4 _build/nrf52810_xxaa/nrf_sdh_soc.c.o
  .text.nrf_sdh_soc_evts_poll
-                0x000000000001c528       0x3c _build/nrf52810_xxaa/nrf_sdh_soc.c.o
- .text.exit     0x000000000001c564       0x28 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-exit.o)
-                0x000000000001c564                exit
+                0x000000000001c52c       0x3c _build/nrf52810_xxaa/nrf_sdh_soc.c.o
+ .text.exit     0x000000000001c568       0x28 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-exit.o)
+                0x000000000001c568                exit
  .text.__libc_init_array
-                0x000000000001c58c       0x48 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-init.o)
-                0x000000000001c58c                __libc_init_array
- .text.memcpy   0x000000000001c5d4       0x1c c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
-                0x000000000001c5d4                memcpy
- .text.memset   0x000000000001c5f0       0x10 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-memset.o)
-                0x000000000001c5f0                memset
- .text._exit    0x000000000001c600        0x4 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
-                0x000000000001c600                _exit
+                0x000000000001c590       0x48 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-init.o)
+                0x000000000001c590                __libc_init_array
+ .text.memcpy   0x000000000001c5d8       0x1c c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+                0x000000000001c5d8                memcpy
+ .text.memset   0x000000000001c5f4       0x10 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-memset.o)
+                0x000000000001c5f4                memset
+ .text._exit    0x000000000001c604        0x4 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+                0x000000000001c604                _exit
  .text.selfrel_offset31
-                0x000000000001c604       0x14 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c608       0x14 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text.search_EIT_table
-                0x000000000001c618       0x5c c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c61c       0x5c c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text.__gnu_unwind_get_pr_addr
-                0x000000000001c674       0x28 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c678       0x28 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text.get_eit_entry
-                0x000000000001c69c       0x9c c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c6a0       0x9c c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text.restore_non_core_regs
-                0x000000000001c738       0x58 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c73c       0x58 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text._Unwind_decode_typeinfo_ptr.isra.0
-                0x000000000001c790        0xc c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c794        0xc c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text._Unwind_DebugHook
-                0x000000000001c79c        0x4 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c7a0        0x4 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text.unwind_phase2
-                0x000000000001c7a0       0x3c c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c7a4       0x3c c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text.unwind_phase2_forced
-                0x000000000001c7dc       0xcc c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c7e0       0xcc c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text.__gnu_Unwind_RaiseException
-                0x000000000001c8a8       0x60 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
-                0x000000000001c8a8                __gnu_Unwind_RaiseException
+                0x000000000001c8ac       0x60 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c8ac                __gnu_Unwind_RaiseException
  .text.__gnu_Unwind_ForcedUnwind
-                0x000000000001c908       0x14 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
-                0x000000000001c908                __gnu_Unwind_ForcedUnwind
+                0x000000000001c90c       0x14 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c90c                __gnu_Unwind_ForcedUnwind
  .text.__gnu_Unwind_Resume
-                0x000000000001c91c       0x44 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
-                0x000000000001c91c                __gnu_Unwind_Resume
+                0x000000000001c920       0x44 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c920                __gnu_Unwind_Resume
  .text.__gnu_Unwind_Resume_or_Rethrow
-                0x000000000001c960       0x14 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
-                0x000000000001c960                __gnu_Unwind_Resume_or_Rethrow
+                0x000000000001c964       0x14 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c964                __gnu_Unwind_Resume_or_Rethrow
  .text._Unwind_VRS_Get
-                0x000000000001c974       0x30 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
-                0x000000000001c974                _Unwind_VRS_Get
+                0x000000000001c978       0x30 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c978                _Unwind_VRS_Get
  .text._Unwind_GetGR
-                0x000000000001c9a4       0x18 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c9a8       0x18 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text._Unwind_VRS_Set
-                0x000000000001c9bc       0x30 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
-                0x000000000001c9bc                _Unwind_VRS_Set
+                0x000000000001c9c0       0x30 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c9c0                _Unwind_VRS_Set
  .text._Unwind_SetGR
-                0x000000000001c9ec       0x18 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001c9f0       0x18 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text.__gnu_Unwind_Backtrace
-                0x000000000001ca04       0x78 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
-                0x000000000001ca04                __gnu_Unwind_Backtrace
+                0x000000000001ca08       0x78 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001ca08                __gnu_Unwind_Backtrace
  .text.__gnu_unwind_pr_common
-                0x000000000001ca7c      0x2a8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001ca80      0x2a8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .text.__aeabi_unwind_cpp_pr0
-                0x000000000001cd24        0x8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
-                0x000000000001cd24                __aeabi_unwind_cpp_pr0
+                0x000000000001cd28        0x8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001cd28                __aeabi_unwind_cpp_pr0
  .text.__aeabi_unwind_cpp_pr1
-                0x000000000001cd2c        0x8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
-                0x000000000001cd2c                __aeabi_unwind_cpp_pr1
+                0x000000000001cd30        0x8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001cd30                __aeabi_unwind_cpp_pr1
  .text.__aeabi_unwind_cpp_pr2
-                0x000000000001cd34        0x8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
-                0x000000000001cd34                __aeabi_unwind_cpp_pr2
+                0x000000000001cd38        0x8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001cd38                __aeabi_unwind_cpp_pr2
  .text._Unwind_VRS_Pop
-                0x000000000001cd3c      0x278 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
-                0x000000000001cd3c                _Unwind_VRS_Pop
- .text          0x000000000001cfb4      0x1ac c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(libunwind.o)
-                0x000000000001cfb4                __restore_core_regs
-                0x000000000001cfb4                restore_core_regs
-                0x000000000001cfcc                __gnu_Unwind_Restore_VFP
-                0x000000000001cfd4                __gnu_Unwind_Save_VFP
-                0x000000000001cfdc                __gnu_Unwind_Restore_VFP_D
-                0x000000000001cfe4                __gnu_Unwind_Save_VFP_D
-                0x000000000001cfec                __gnu_Unwind_Restore_VFP_D_16_to_31
-                0x000000000001cff4                __gnu_Unwind_Save_VFP_D_16_to_31
-                0x000000000001cffc                __gnu_Unwind_Restore_WMMXD
-                0x000000000001d040                __gnu_Unwind_Save_WMMXD
-                0x000000000001d084                __gnu_Unwind_Restore_WMMXC
-                0x000000000001d098                __gnu_Unwind_Save_WMMXC
-                0x000000000001d0ac                ___Unwind_RaiseException
-                0x000000000001d0ac                _Unwind_RaiseException
-                0x000000000001d0d0                _Unwind_Resume
-                0x000000000001d0d0                ___Unwind_Resume
-                0x000000000001d0f4                _Unwind_Resume_or_Rethrow
-                0x000000000001d0f4                ___Unwind_Resume_or_Rethrow
-                0x000000000001d118                _Unwind_ForcedUnwind
-                0x000000000001d118                ___Unwind_ForcedUnwind
-                0x000000000001d13c                ___Unwind_Backtrace
-                0x000000000001d13c                _Unwind_Backtrace
+                0x000000000001cd40      0x278 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x000000000001cd40                _Unwind_VRS_Pop
+ .text          0x000000000001cfb8      0x1ac c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(libunwind.o)
+                0x000000000001cfb8                __restore_core_regs
+                0x000000000001cfb8                restore_core_regs
+                0x000000000001cfd0                __gnu_Unwind_Restore_VFP
+                0x000000000001cfd8                __gnu_Unwind_Save_VFP
+                0x000000000001cfe0                __gnu_Unwind_Restore_VFP_D
+                0x000000000001cfe8                __gnu_Unwind_Save_VFP_D
+                0x000000000001cff0                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x000000000001cff8                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x000000000001d000                __gnu_Unwind_Restore_WMMXD
+                0x000000000001d044                __gnu_Unwind_Save_WMMXD
+                0x000000000001d088                __gnu_Unwind_Restore_WMMXC
+                0x000000000001d09c                __gnu_Unwind_Save_WMMXC
+                0x000000000001d0b0                ___Unwind_RaiseException
+                0x000000000001d0b0                _Unwind_RaiseException
+                0x000000000001d0d4                _Unwind_Resume
+                0x000000000001d0d4                ___Unwind_Resume
+                0x000000000001d0f8                _Unwind_Resume_or_Rethrow
+                0x000000000001d0f8                ___Unwind_Resume_or_Rethrow
+                0x000000000001d11c                _Unwind_ForcedUnwind
+                0x000000000001d11c                ___Unwind_ForcedUnwind
+                0x000000000001d140                ___Unwind_Backtrace
+                0x000000000001d140                _Unwind_Backtrace
  .text.next_unwind_byte
-                0x000000000001d160       0x38 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
+                0x000000000001d164       0x38 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
  .text.__gnu_unwind_execute
-                0x000000000001d198      0x29c c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
-                0x000000000001d198                __gnu_unwind_execute
- .text.abort    0x000000000001d434        0xe c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-abort.o)
-                0x000000000001d434                abort
+                0x000000000001d19c      0x29c c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
+                0x000000000001d19c                __gnu_unwind_execute
+ .text.abort    0x000000000001d438        0xe c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-abort.o)
+                0x000000000001d438                abort
  .text._raise_r
-                0x000000000001d442       0x50 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-signal.o)
-                0x000000000001d442                _raise_r
- *fill*         0x000000000001d492        0x2 
- .text.raise    0x000000000001d494       0x10 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-signal.o)
-                0x000000000001d494                raise
- .text._kill_r  0x000000000001d4a4       0x24 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-signalr.o)
-                0x000000000001d4a4                _kill_r
+                0x000000000001d446       0x50 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-signal.o)
+                0x000000000001d446                _raise_r
+ *fill*         0x000000000001d496        0x2 
+ .text.raise    0x000000000001d498       0x10 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-signal.o)
+                0x000000000001d498                raise
+ .text._kill_r  0x000000000001d4a8       0x24 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-signalr.o)
+                0x000000000001d4a8                _kill_r
  .text._getpid_r
-                0x000000000001d4c8        0x4 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-signalr.o)
-                0x000000000001d4c8                _getpid_r
- .text._getpid  0x000000000001d4cc       0x10 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(getpid.o)
-                0x000000000001d4cc                _getpid
- .text._kill    0x000000000001d4dc       0x10 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(kill.o)
-                0x000000000001d4dc                _kill
+                0x000000000001d4cc        0x4 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-signalr.o)
+                0x000000000001d4cc                _getpid_r
+ .text._getpid  0x000000000001d4d0       0x10 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(getpid.o)
+                0x000000000001d4d0                _getpid
+ .text._kill    0x000000000001d4e0       0x10 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(kill.o)
+                0x000000000001d4e0                _kill
  *(.init)
- .init          0x000000000001d4ec        0x4 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
-                0x000000000001d4ec                _init
- .init          0x000000000001d4f0        0x8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x000000000001d4f0        0x4 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
+                0x000000000001d4f0                _init
+ .init          0x000000000001d4f4        0x8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x000000000001d4f8        0x4 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
-                0x000000000001d4f8                _fini
- .fini          0x000000000001d4fc        0x8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
+ .fini          0x000000000001d4fc        0x4 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
+                0x000000000001d4fc                _fini
+ .fini          0x000000000001d500        0x8 c:/eclipse/gnu mcu eclipse/arm embedded gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -11397,8 +11397,8 @@ Linker script and memory map
  *(.dtors)
  *(.rodata*)
  .rodata.m_uart
-                0x000000000001d504       0x14 _build/nrf52810_xxaa/ser_phy_uart.c.o
- *fill*         0x000000000001d518        0x8 
+                0x000000000001d508       0x14 _build/nrf52810_xxaa/ser_phy_uart.c.o
+ *fill*         0x000000000001d51c        0x4 
  .rodata._ZZ21nrfx_coredep_delay_usE18delay_machine_code
                 0x000000000001d520        0x6 _build/nrf52810_xxaa/main.cpp.o
  .rodata        0x000000000001d526        0x4 _build/nrf52810_xxaa/nrf_sdh.c.o
@@ -12036,7 +12036,7 @@ OUTPUT(_build/nrf52810_xxaa.out elf32-littlearm)
  .debug_line    0x0000000000022334      0xa5a _build/nrf52810_xxaa/nrf_sdh_ble.c.o
  .debug_line    0x0000000000022d8e      0x803 _build/nrf52810_xxaa/nrf_sdh_soc.c.o
 
-.debug_info     0x0000000000000000    0x49685
+.debug_info     0x0000000000000000    0x49686
  .debug_info    0x0000000000000000       0x26 _build/nrf52810_xxaa/gcc_startup_nrf52810.S.o
  .debug_info    0x0000000000000026      0xbac _build/nrf52810_xxaa/app_error.c.o
  .debug_info    0x0000000000000bd2      0xfdf _build/nrf52810_xxaa/app_scheduler.c.o
@@ -12070,10 +12070,10 @@ OUTPUT(_build/nrf52810_xxaa.out elf32-littlearm)
  .debug_info    0x000000000003aaac     0x11ed _build/nrf52810_xxaa/nrfx_prs.c.o
  .debug_info    0x000000000003bc99     0x3b59 _build/nrf52810_xxaa/nrfx_uart.c.o
  .debug_info    0x000000000003f7f2     0x3c9b _build/nrf52810_xxaa/nrfx_uarte.c.o
- .debug_info    0x000000000004348d      0xcfb _build/nrf52810_xxaa/main.cpp.o
- .debug_info    0x0000000000044188     0x1b15 _build/nrf52810_xxaa/nrf_sdh.c.o
- .debug_info    0x0000000000045c9d     0x2aa2 _build/nrf52810_xxaa/nrf_sdh_ble.c.o
- .debug_info    0x000000000004873f      0xf46 _build/nrf52810_xxaa/nrf_sdh_soc.c.o
+ .debug_info    0x000000000004348d      0xcfc _build/nrf52810_xxaa/main.cpp.o
+ .debug_info    0x0000000000044189     0x1b15 _build/nrf52810_xxaa/nrf_sdh.c.o
+ .debug_info    0x0000000000045c9e     0x2aa2 _build/nrf52810_xxaa/nrf_sdh_ble.c.o
+ .debug_info    0x0000000000048740      0xf46 _build/nrf52810_xxaa/nrf_sdh_soc.c.o
 
 .debug_abbrev   0x0000000000000000     0x823e
  .debug_abbrev  0x0000000000000000       0x14 _build/nrf52810_xxaa/gcc_startup_nrf52810.S.o
@@ -12265,7 +12265,7 @@ OUTPUT(_build/nrf52810_xxaa.out elf32-littlearm)
  .debug_str     0x0000000000077edc      0x189 _build/nrf52810_xxaa/nrf_sdh_soc.c.o
                                       0x5f6a1 (size before relaxing)
 
-.debug_loc      0x0000000000000000    0x21998
+.debug_loc      0x0000000000000000    0x21999
  .debug_loc     0x0000000000000000       0xcd _build/nrf52810_xxaa/app_error.c.o
  .debug_loc     0x00000000000000cd      0x365 _build/nrf52810_xxaa/app_scheduler.c.o
  .debug_loc     0x0000000000000432      0x18f _build/nrf52810_xxaa/app_util_platform.c.o
@@ -12296,10 +12296,10 @@ OUTPUT(_build/nrf52810_xxaa.out elf32-littlearm)
  .debug_loc     0x000000000001e4d1       0xff _build/nrf52810_xxaa/nrfx_prs.c.o
  .debug_loc     0x000000000001e5d0     0x1664 _build/nrf52810_xxaa/nrfx_uart.c.o
  .debug_loc     0x000000000001fc34     0x16b3 _build/nrf52810_xxaa/nrfx_uarte.c.o
- .debug_loc     0x00000000000212e7      0x103 _build/nrf52810_xxaa/main.cpp.o
- .debug_loc     0x00000000000213ea      0x29f _build/nrf52810_xxaa/nrf_sdh.c.o
- .debug_loc     0x0000000000021689      0x278 _build/nrf52810_xxaa/nrf_sdh_ble.c.o
- .debug_loc     0x0000000000021901       0x97 _build/nrf52810_xxaa/nrf_sdh_soc.c.o
+ .debug_loc     0x00000000000212e7      0x104 _build/nrf52810_xxaa/main.cpp.o
+ .debug_loc     0x00000000000213eb      0x29f _build/nrf52810_xxaa/nrf_sdh.c.o
+ .debug_loc     0x000000000002168a      0x278 _build/nrf52810_xxaa/nrf_sdh_ble.c.o
+ .debug_loc     0x0000000000021902       0x97 _build/nrf52810_xxaa/nrf_sdh_soc.c.o
 
 .debug_ranges   0x0000000000000000     0x2680
  .debug_ranges  0x0000000000000000       0x18 _build/nrf52810_xxaa/app_error.c.o

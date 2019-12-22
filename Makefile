@@ -1,4 +1,4 @@
-PROJECT_NAME     := ble_connectivity_s112_uart_pca10040e
+PROJECT_NAME     := nRF52810_Example_LED
 TARGETS          := nrf52810_xxaa
 OUTPUT_DIRECTORY := _build
 
@@ -248,7 +248,7 @@ flash_softdevice:
 erase:
 	nrfjprog -f nrf52 --eraseall
 
-SDK_CONFIG_FILE := ../config/sdk_config.h
+SDK_CONFIG_FILE := $(PROJ_DIR)/config/sdk_config.h
 CMSIS_CONFIG_TOOL := $(SDK_ROOT)/external_tools/cmsisconfig/CMSIS_Configuration_Wizard.jar
 sdk_config:
 	java -jar $(CMSIS_CONFIG_TOOL) $(SDK_CONFIG_FILE)

@@ -22,10 +22,10 @@ int main(void){
 	while(1){
 		NRF_GPIO->OUTSET = 0x01 << LED0;
 		NRF_GPIO->OUTSET = 0x01 << LED1;
-		nrf_delay_ms(100);
+		nrf_delay_ms(1000);
 		NRF_GPIO->OUTCLR = 0x01 << LED0;
 		NRF_GPIO->OUTCLR = 0x01 << LED1;
-		nrf_delay_ms(100);
+		nrf_delay_ms(1000);
 	}
 
 	return 0;
